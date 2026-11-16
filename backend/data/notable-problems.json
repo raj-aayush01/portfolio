@@ -1,0 +1,56 @@
+[
+  {
+    "id": "course-schedule-ii",
+    "title": "Course Schedule II (LC 210)",
+    "problemUrl": "https://leetcode.com/problems/course-schedule-ii/",
+    "platform": "LeetCode",
+    "difficulty": "Medium",
+    "tags": ["Graph", "Topological Sort", "BFS/DFS"],
+    "approach": "Applied Kahn's algorithm with an in-degree array and queue. Detected cycles early by comparing processed node count against total courses."
+  },
+  {
+    "id": "coin-change",
+    "title": "Coin Change (LC 322)",
+    "problemUrl": "https://leetcode.com/problems/coin-change/",
+    "platform": "LeetCode",
+    "difficulty": "Medium",
+    "tags": ["Dynamic Programming", "Breadth-First Search"],
+    "approach": "Constructed bottom-up 1D DP table initialized to amount + 1. Iterated through each denomination to find optimal subproblem combination in O(amount * n)."
+  },
+  {
+    "id": "trapping-rain-water",
+    "title": "Trapping Rain Water (LC 42)",
+    "problemUrl": "https://leetcode.com/problems/trapping-rain-water/",
+    "platform": "LeetCode",
+    "difficulty": "Hard",
+    "tags": ["Two Pointers", "Monotonic Stack", "Array"],
+    "approach": "Used two converging pointers tracking max-left and max-right boundaries. Trapped water is determined deterministically by the smaller boundary in O(1) auxiliary space."
+  },
+  {
+    "id": "lowest-common-ancestor",
+    "title": "Lowest Common Ancestor of a Binary Tree (LC 236)",
+    "problemUrl": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/",
+    "platform": "LeetCode",
+    "difficulty": "Medium",
+    "tags": ["Tree", "Depth-First Search", "Binary Tree"],
+    "approach": "Post-order recursive traversal returning node when found. If both left and right subtrees return non-null, the current root is the LCA."
+  },
+  {
+    "id": "longest-substring-without-repeating",
+    "title": "Longest Substring Without Repeating Characters (LC 3)",
+    "problemUrl": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+    "platform": "LeetCode",
+    "difficulty": "Medium",
+    "tags": ["Hash Table", "String", "Sliding Window"],
+    "approach": "Maintained sliding window with character index hash map. Fast-forwarded left pointer past the last duplicate occurrence to guarantee linear O(n) traversal."
+  },
+  {
+    "id": "merge-k-sorted-lists",
+    "title": "Merge k Sorted Lists (LC 23)",
+    "problemUrl": "https://leetcode.com/problems/merge-k-sorted-lists/",
+    "platform": "LeetCode",
+    "difficulty": "Hard",
+    "tags": ["Linked List", "Divide and Conquer", "Heap (Priority Queue)"],
+    "approach": "Maintained min-heap of current head pointers across k lists. Popped minimum node and pushed its successor in O(N log k) total runtime."
+  }
+]

@@ -1,0 +1,427 @@
+{
+  "asOf": "16 Nov 2026",
+  "handle": "raj_aayush01",
+  "profileUrl": "https://leetcode.com/u/raj_aayush01/",
+  "contestRating": 1767,
+  "globalRanking": 87198,
+  "totalContestants": 892590,
+  "topPercentage": 9.97,
+  "contestsAttended": 34,
+  "problemsSolved": {
+    "total": 387,
+    "easy": 118,
+    "medium": 226,
+    "hard": 43,
+    "attempting": 16
+  },
+  "badges": [
+    {
+      "name": "100 Days Badge 2026",
+      "category": "Contest/Daily",
+      "date": "2026"
+    },
+    {
+      "name": "50 Days Badge 2026",
+      "category": "Contest/Daily",
+      "date": "2026"
+    },
+    {
+      "name": "50 Days Badge 2025",
+      "category": "Contest/Daily",
+      "date": "2025"
+    }
+  ],
+  "yearlySubmissions": 1787,
+  "activeDays": 208,
+  "maxStreak": 35,
+  "languages": [
+    {
+      "language": "C++",
+      "problemsSolved": 358
+    },
+    {
+      "language": "MySQL",
+      "problemsSolved": 29
+    },
+    {
+      "language": "C",
+      "problemsSolved": 1
+    }
+  ],
+  "tagProblemCounts": [
+    {
+      "tagName": "Array",
+      "problemsSolved": 190
+    },
+    {
+      "tagName": "String",
+      "problemsSolved": 69
+    },
+    {
+      "tagName": "Dynamic Programming",
+      "problemsSolved": 65
+    },
+    {
+      "tagName": "Hash Table",
+      "problemsSolved": 61
+    },
+    {
+      "tagName": "Depth-First Search",
+      "problemsSolved": 48
+    },
+    {
+      "tagName": "Math",
+      "problemsSolved": 43
+    },
+    {
+      "tagName": "Two Pointers",
+      "problemsSolved": 41
+    },
+    {
+      "tagName": "Tree",
+      "problemsSolved": 39
+    }
+  ],
+  "contests": [
+    {
+      "contestName": "Weekly Contest 492",
+      "platform": "LeetCode",
+      "date": "2026-03-08",
+      "rank": 10628,
+      "rating": 1549,
+      "ratingChange": 49,
+      "problemsSolved": 2,
+      "totalProblems": 4
+    },
+    {
+      "contestName": "Biweekly Contest 178",
+      "platform": "LeetCode",
+      "date": "2026-03-14",
+      "rank": 18064,
+      "rating": 1529,
+      "ratingChange": -20,
+      "problemsSolved": 2,
+      "totalProblems": 4
+    },
+    {
+      "contestName": "Weekly Contest 493",
+      "platform": "LeetCode",
+      "date": "2026-03-15",
+      "rank": 18862,
+      "rating": 1521,
+      "ratingChange": -8,
+      "problemsSolved": 2,
+      "totalProblems": 4
+    },
+    {
+      "contestName": "Weekly Contest 494",
+      "platform": "LeetCode",
+      "date": "2026-03-22",
+      "rank": 20645,
+      "rating": 1502,
+      "ratingChange": -19,
+      "problemsSolved": 1,
+      "totalProblems": 4
+    },
+    {
+      "contestName": "Biweekly Contest 179",
+      "platform": "LeetCode",
+      "date": "2026-03-28",
+      "rank": 18919,
+      "rating": 1485,
+      "ratingChange": -17,
+      "problemsSolved": 1,
+      "totalProblems": 4
+    },
+    {
+      "contestName": "Weekly Contest 495",
+      "platform": "LeetCode",
+      "date": "2026-03-29",
+      "rank": 13267,
+      "rating": 1500,
+      "ratingChange": 15,
+      "problemsSolved": 2,
+      "totalProblems": 4
+    },
+    {
+      "contestName": "Weekly Contest 496",
+      "platform": "LeetCode",
+      "date": "2026-04-05",
+      "rank": 22131,
+      "rating": 1475,
+      "ratingChange": -25,
+      "problemsSolved": 1,
+      "totalProblems": 4
+    },
+    {
+      "contestName": "Biweekly Contest 180",
+      "platform": "LeetCode",
+      "date": "2026-04-11",
+      "rank": 12968,
+      "rating": 1485,
+      "ratingChange": 10,
+      "problemsSolved": 3,
+      "totalProblems": 4
+    },
+    {
+      "contestName": "Weekly Contest 497",
+      "platform": "LeetCode",
+      "date": "2026-04-12",
+      "rank": 13835,
+      "rating": 1493,
+      "ratingChange": 8,
+      "problemsSolved": 2,
+      "totalProblems": 4
+    },
+    {
+      "contestName": "Weekly Contest 498",
+      "platform": "LeetCode",
+      "date": "2026-04-19",
+      "rank": 4274,
+      "rating": 1547,
+      "ratingChange": 54,
+      "problemsSolved": 3,
+      "totalProblems": 4
+    },
+    {
+      "contestName": "Weekly Contest 499",
+      "platform": "LeetCode",
+      "date": "2026-04-26",
+      "rank": 8179,
+      "rating": 1563,
+      "ratingChange": 16,
+      "problemsSolved": 3,
+      "totalProblems": 4
+    },
+    {
+      "contestName": "Weekly Contest 500",
+      "platform": "LeetCode",
+      "date": "2026-05-03",
+      "rank": 6119,
+      "rating": 1584,
+      "ratingChange": 21,
+      "problemsSolved": 3,
+      "totalProblems": 4
+    },
+    {
+      "contestName": "Biweekly Contest 182",
+      "platform": "LeetCode",
+      "date": "2026-05-09",
+      "rank": 8959,
+      "rating": 1583,
+      "ratingChange": -1,
+      "problemsSolved": 1,
+      "totalProblems": 4
+    },
+    {
+      "contestName": "Weekly Contest 502",
+      "platform": "LeetCode",
+      "date": "2026-05-17",
+      "rank": 15616,
+      "rating": 1559,
+      "ratingChange": -24,
+      "problemsSolved": 1,
+      "totalProblems": 4
+    },
+    {
+      "contestName": "Weekly Contest 503",
+      "platform": "LeetCode",
+      "date": "2026-05-24",
+      "rank": 7450,
+      "rating": 1575,
+      "ratingChange": 16,
+      "problemsSolved": 2,
+      "totalProblems": 4
+    },
+    {
+      "contestName": "Weekly Contest 507",
+      "platform": "LeetCode",
+      "date": "2026-06-21",
+      "rank": 12551,
+      "rating": 1565,
+      "ratingChange": -10,
+      "problemsSolved": 2,
+      "totalProblems": 4
+    },
+    {
+      "contestName": "Weekly Contest 508",
+      "platform": "LeetCode",
+      "date": "2026-06-28",
+      "rank": 10602,
+      "rating": 1564,
+      "ratingChange": -1,
+      "problemsSolved": 2,
+      "totalProblems": 4
+    },
+    {
+      "contestName": "Biweekly Contest 186",
+      "platform": "LeetCode",
+      "date": "2026-07-04",
+      "rank": 17407,
+      "rating": 1537,
+      "ratingChange": -27,
+      "problemsSolved": 2,
+      "totalProblems": 4
+    },
+    {
+      "contestName": "Weekly Contest 509",
+      "platform": "LeetCode",
+      "date": "2026-07-05",
+      "rank": 7664,
+      "rating": 1557,
+      "ratingChange": 20,
+      "problemsSolved": 2,
+      "totalProblems": 4
+    },
+    {
+      "contestName": "Weekly Contest 510",
+      "platform": "LeetCode",
+      "date": "2026-07-12",
+      "rank": 8517,
+      "rating": 1565,
+      "ratingChange": 8,
+      "problemsSolved": 2,
+      "totalProblems": 4
+    },
+    {
+      "contestName": "Weekly Contest 511",
+      "platform": "LeetCode",
+      "date": "2026-07-19",
+      "rank": 8506,
+      "rating": 1572,
+      "ratingChange": 7,
+      "problemsSolved": 2,
+      "totalProblems": 4
+    },
+    {
+      "contestName": "Weekly Contest 514",
+      "platform": "LeetCode",
+      "date": "2026-08-09",
+      "rank": 17044,
+      "rating": 1546,
+      "ratingChange": -26,
+      "problemsSolved": 1,
+      "totalProblems": 4
+    },
+    {
+      "contestName": "Weekly Contest 517",
+      "platform": "LeetCode",
+      "date": "2026-08-30",
+      "rank": 6496,
+      "rating": 1563,
+      "ratingChange": 17,
+      "problemsSolved": 2,
+      "totalProblems": 4
+    },
+    {
+      "contestName": "Biweekly Contest 191",
+      "platform": "LeetCode",
+      "date": "2026-09-12",
+      "rank": 8795,
+      "rating": 1561,
+      "ratingChange": -2,
+      "problemsSolved": 2,
+      "totalProblems": 4
+    },
+    {
+      "contestName": "Weekly Contest 519",
+      "platform": "LeetCode",
+      "date": "2026-09-13",
+      "rank": 6870,
+      "rating": 1574,
+      "ratingChange": 13,
+      "problemsSolved": 1,
+      "totalProblems": 4
+    },
+    {
+      "contestName": "Weekly Contest 520",
+      "platform": "LeetCode",
+      "date": "2026-09-20",
+      "rank": 5123,
+      "rating": 1596,
+      "ratingChange": 22,
+      "problemsSolved": 2,
+      "totalProblems": 4
+    },
+    {
+      "contestName": "Biweekly Contest 192",
+      "platform": "LeetCode",
+      "date": "2026-09-26",
+      "rank": 6855,
+      "rating": 1598,
+      "ratingChange": 2,
+      "problemsSolved": 2,
+      "totalProblems": 4
+    },
+    {
+      "contestName": "Weekly Contest 521",
+      "platform": "LeetCode",
+      "date": "2026-09-27",
+      "rank": 11040,
+      "rating": 1585,
+      "ratingChange": -13,
+      "problemsSolved": 1,
+      "totalProblems": 4
+    },
+    {
+      "contestName": "Weekly Contest 522",
+      "platform": "LeetCode",
+      "date": "2026-10-04",
+      "rank": 4854,
+      "rating": 1608,
+      "ratingChange": 23,
+      "problemsSolved": 2,
+      "totalProblems": 4
+    },
+    {
+      "contestName": "Weekly Contest 523",
+      "platform": "LeetCode",
+      "date": "2026-10-11",
+      "rank": 3587,
+      "rating": 1639,
+      "ratingChange": 31,
+      "problemsSolved": 3,
+      "totalProblems": 4
+    },
+    {
+      "contestName": "Weekly Contest 524",
+      "platform": "LeetCode",
+      "date": "2026-10-18",
+      "rank": 2095,
+      "rating": 1680,
+      "ratingChange": 41,
+      "problemsSolved": 3,
+      "totalProblems": 4
+    },
+    {
+      "contestName": "Biweekly Contest 194",
+      "platform": "LeetCode",
+      "date": "2026-10-24",
+      "rank": 1410,
+      "rating": 1729,
+      "ratingChange": 49,
+      "problemsSolved": 3,
+      "totalProblems": 4
+    },
+    {
+      "contestName": "Weekly Contest 525",
+      "platform": "LeetCode",
+      "date": "2026-10-25",
+      "rank": 2499,
+      "rating": 1755,
+      "ratingChange": 26,
+      "problemsSolved": 3,
+      "totalProblems": 4
+    },
+    {
+      "contestName": "Weekly Contest 526",
+      "platform": "LeetCode",
+      "date": "2026-11-01",
+      "rank": 3216,
+      "rating": 1767,
+      "ratingChange": 12,
+      "problemsSolved": 2,
+      "totalProblems": 4
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "chatx",
+    "title": "ChatX",
+    "tagline": "Real-Time One-to-One Messaging Application",
+    "featured": true,
+    "order": 1,
+    "repoUrl": "https://github.com/raj-aayush01/ChatX",
+    "liveDemoUrl": null,
+    "stack": ["React", "Node.js", "Express", "MongoDB", "Socket.IO", "JWT"],
+    "overview": "Full-stack messaging application with one-to-one conversations, real-time delivery, online presence, typing indicators, and persistent chat history.",
+    "contributions": [
+      "Engineered event-driven communication using Socket.IO rooms and participant-scoped events to isolate chat sessions and coordinate real-time messages, typing indicators, and presence.",
+      "Implemented MongoDB message persistence with cursor-based pagination using timestamps, message IDs, and compound indexing for fast incremental history retrieval without skip-offset overhead.",
+      "Designed secure JWT authentication and protected REST APIs, ensuring session restoration is tightly coordinated with conversation fetching so user access remains consistent across page refreshes.",
+      "Systematically validated REST API behavior and edge cases using Postman collections covering auth tokens, authorization headers, validation errors, and reconnection scenarios."
+    ],
+    "keyEngineeringDecision": "Chose cursor-based pagination with compound indexing (timestamp + _id) over traditional skip-offset pagination. This guaranteed deterministic message retrieval without duplicate reads or phantom gaps when active conversations received messages during user scrolling."
+  },
+  {
+    "id": "reclaim-ai",
+    "title": "Reclaim-AI",
+    "tagline": "Agentic AI Payment Recovery Platform",
+    "featured": true,
+    "order": 2,
+    "repoUrl": "https://github.com/raj-aayush01/Reclaim-AI",
+    "liveDemoUrl": null,
+    "stack": ["React", "Node.js", "Express", "MongoDB", "Google Gemini API"],
+    "overview": "Agentic AI platform using Google Gemini to analyze failed payments and customer history, recommend tailored recovery strategies, and execute governed recovery workflows.",
+    "contributions": [
+      "Applied deterministic business rules (retry limits, confidence score thresholds, high-value escalations) directly over Gemini output before authorizing any recovery action.",
+      "Engineered structured LLM response validation and rigorous failure handling for required fields, supported action types, confidence score ranges, malformed payloads, API timeouts, and rate limits.",
+      "Developed a conversational voice-recovery agent featuring multi-turn session and phase management, requiring explicit human confirmation before executing sensitive financial actions.",
+      "Implemented comprehensive audit logging and monitoring for agent execution steps, tool invocations, final outcomes, and runtime exceptions with interactive timeline dashboards."
+    ],
+    "keyEngineeringDecision": "Enforced a strict deterministic validation boundary between Gemini's generative suggestions and the execution engine. Any suggestion violating business thresholds or schema rules is intercepted before payment gateways are triggered, preventing hallucinated or unauthorized financial actions."
+  }
+]

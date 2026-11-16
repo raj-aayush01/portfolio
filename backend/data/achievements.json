@@ -1,0 +1,37 @@
+[
+  {
+    "id": "nodejs-pr-97",
+    "title": "Merged PR to Official Node.js Documentation",
+    "subtitle": "nodejs/learn Repository",
+    "category": "Open Source",
+    "date": "2024",
+    "proofUrl": "https://github.com/nodejs/learn/pull/97",
+    "description": "Authored and successfully merged an open-source contribution to the official Node.js learning documentation repository, improving technical clarity and guidance for global developers."
+  },
+  {
+    "id": "leetcode-milestones",
+    "title": "LeetCode Top 9.97% & 100 Days Badge",
+    "subtitle": "1767 Contest Rating · 34 Contests",
+    "category": "Competitive",
+    "date": "2026",
+    "proofUrl": "https://leetcode.com/u/raj_aayush01/",
+    "description": "Achieved a 1,767 contest rating on LeetCode across 34 competitive rounds. Earned 3 badges including the 100 Days Badge 2026, with 1,787 submissions in the past year."
+  },
+  {
+    "id": "dsa-volume",
+    "title": "500+ Algorithmic Problems Solved",
+    "subtitle": "LeetCode (387) + GeeksforGeeks (121)",
+    "category": "Competitive",
+    "date": "2026",
+    "proofUrl": "https://leetcode.com/u/raj_aayush01/",
+    "description": "Solved over 500 data structures and algorithms problems primarily using C++ (358 on LeetCode), mastering graphs, dynamic programming, two pointers, and interval scheduling."
+  },
+  {
+    "id": "devtrack-leadership",
+    "title": "Technical Club Core Member & Mentor",
+    "subtitle": "DevTrack · REVA University",
+    "category": "Leadership",
+    "date": "2023 - Present",
+    "description": "Organized university-wide developer bootcamps, conducted technical sessions, and directly mentored 50+ junior students in web development fundamentals and competitive coding techniques."
+  }
+]

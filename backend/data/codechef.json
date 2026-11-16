@@ -1,0 +1,18 @@
+{
+  "asOf": "16 Nov 2026",
+  "handle": "raj_aayush01",
+  "profileUrl": "https://www.codechef.com/users/raj_aayush01",
+  "rating": 1271,
+  "stars": 1,
+  "division": "Div 4",
+  "highestRating": 1271,
+  "globalRank": 72837,
+  "countryRank": 69881,
+  "contests": [
+    { "contestName": "Starters 142", "platform": "CodeChef", "date": "2024-07-10", "rank": 4820, "rating": 1140, "ratingChange": 40, "problemsSolved": 2, "totalProblems": 6 },
+    { "contestName": "Starters 145", "platform": "CodeChef", "date": "2024-07-31", "rank": 3950, "rating": 1185, "ratingChange": 45, "problemsSolved": 3, "totalProblems": 6 },
+    { "contestName": "Starters 148", "platform": "CodeChef", "date": "2024-08-21", "rank": 3610, "rating": 1222, "ratingChange": 37, "problemsSolved": 3, "totalProblems": 6 },
+    { "contestName": "Starters 150", "platform": "CodeChef", "date": "2024-09-04", "rank": 4120, "rating": 1210, "ratingChange": -12, "problemsSolved": 2, "totalProblems": 6 },
+    { "contestName": "Starters 153", "platform": "CodeChef", "date": "2024-09-25", "rank": 2980, "rating": 1271, "ratingChange": 61, "problemsSolved": 3, "totalProblems": 6 }
+  ]
+}

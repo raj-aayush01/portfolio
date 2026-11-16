@@ -1,0 +1,79 @@
+{
+  "name": "Aayush Raj",
+  "title": "Competitive Programmer & Full-Stack Developer",
+  "tagline": "I solve problems on LeetCode and build real-time systems that hold up in production.",
+  "bio": "I am a computer science student at REVA University focusing on competitive programming and real-time backend systems. My core practice is on LeetCode (1767 contest rating, top 9.97%), backed by practical engineering with WebSockets, Node.js, and agentic workflows.",
+  "location": "Bengaluru, India",
+  "email": "aayushraj065@gmail.com",
+  "links": {
+    "github": "https://github.com/raj-aayush01",
+    "linkedin": "https://www.linkedin.com/in/rajaayush01/",
+    "leetcode": "https://leetcode.com/u/raj_aayush01/",
+    "codechef": "https://www.codechef.com/users/raj_aayush01",
+    "gfg": "https://www.geeksforgeeks.org/profile/raj_aayush01",
+    "resumePdf": "/resume.pdf",
+    "resumeDriveFallback": "https://drive.google.com/file/d/165LD8uZ65bp3cfwp6f7IdTfljAL_M2u9/view?usp=sharing"
+  },
+  "education": [
+    {
+      "degree": "B.Tech in Computer Science and Engineering",
+      "institution": "REVA University",
+      "location": "Bengaluru, India",
+      "period": "Aug 2023 - July 2027",
+      "cgpa": "9.5 / 10.0",
+      "coursework": [
+        "Data Structures & Algorithms",
+        "Object-Oriented Programming",
+        "System Design",
+        "Database Management Systems",
+        "Operating Systems",
+        "Computer Networks",
+        "Web Technologies"
+      ]
+    },
+    {
+      "degree": "Senior Secondary (XII), CBSE, Science",
+      "institution": "Central Board of Secondary Education",
+      "location": "India",
+      "period": "2022",
+      "score": "80.2%",
+      "coursework": ["Physics", "Chemistry", "Mathematics", "Computer Science"]
+    },
+    {
+      "degree": "Secondary (X), CBSE",
+      "institution": "Central Board of Secondary Education",
+      "location": "India",
+      "period": "2020",
+      "score": "91.6%",
+      "coursework": ["Science", "Mathematics", "Social Sciences", "English"]
+    }
+  ],
+  "skills": [
+    {
+      "category": "Languages",
+      "items": ["C++", "C", "JavaScript", "SQL"]
+    },
+    {
+      "category": "Backend",
+      "items": ["Node.js", "Express.js", "REST APIs", "Socket.IO"]
+    },
+    {
+      "category": "Frontend",
+      "items": ["React.js", "HTML", "CSS", "Tailwind CSS", "Bootstrap"]
+    },
+    {
+      "category": "Databases",
+      "items": ["MongoDB", "MySQL"]
+    },
+    {
+      "category": "Tools",
+      "items": ["Git", "GitHub", "VS Code", "Postman", "GitHub Actions"]
+    }
+  ],
+  "clubRole": {
+    "title": "Core Member",
+    "club": "DevTrack",
+    "institution": "REVA University Technical Club",
+    "summary": "Organized developer workshops, conducted hands-on technical sessions, and mentored 50+ students in web development and algorithmic programming fundamentals."
+  }
+}
