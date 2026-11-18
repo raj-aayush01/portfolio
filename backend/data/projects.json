@@ -1,3 +1,4 @@
+
 [
   {
     "id": "chatx",
@@ -7,7 +8,28 @@
     "order": 1,
     "repoUrl": "https://github.com/raj-aayush01/ChatX",
     "liveDemoUrl": null,
-    "stack": ["React", "Node.js", "Express", "MongoDB", "Socket.IO", "JWT"],
+    "images": [
+      {
+        "src": "/projects/chatx/01-main-chat.png",
+        "alt": "ChatX main messaging interface showing one-to-one conversations"
+      },
+      {
+        "src": "/projects/chatx/02-typing-indicator.png",
+        "alt": "ChatX real-time typing indicator"
+      },
+      {
+        "src": "/projects/chatx/03-signup.png",
+        "alt": "ChatX user registration page"
+      }
+    ],
+    "stack": [
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Socket.IO",
+      "JWT"
+    ],
     "overview": "Full-stack messaging application with one-to-one conversations, real-time delivery, online presence, typing indicators, and persistent chat history.",
     "contributions": [
       "Engineered event-driven communication using Socket.IO rooms and participant-scoped events to isolate chat sessions and coordinate real-time messages, typing indicators, and presence.",
@@ -25,7 +47,27 @@
     "order": 2,
     "repoUrl": "https://github.com/raj-aayush01/Reclaim-AI",
     "liveDemoUrl": null,
-    "stack": ["React", "Node.js", "Express", "MongoDB", "Google Gemini API"],
+    "images": [
+      {
+        "src": "/projects/reclaim-ai/01-landing-page.png",
+        "alt": "Reclaim AI landing page showing the automated payment recovery platform"
+      },
+      {
+        "src": "/projects/reclaim-ai/02-recovery-overview.png",
+        "alt": "Reclaim AI dashboard showing payment recovery metrics and agent actions"
+      },
+      {
+        "src": "/projects/reclaim-ai/03-failed-payments.png",
+        "alt": "Reclaim AI failed payments dashboard with recovery actions"
+      }
+    ],
+    "stack": [
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Google Gemini API"
+    ],
     "overview": "Agentic AI platform using Google Gemini to analyze failed payments and customer history, recommend tailored recovery strategies, and execute governed recovery workflows.",
     "contributions": [
       "Applied deterministic business rules (retry limits, confidence score thresholds, high-value escalations) directly over Gemini output before authorizing any recovery action.",

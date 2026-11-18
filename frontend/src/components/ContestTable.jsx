@@ -67,10 +67,10 @@ export default function ContestTable({ contests = [], platformName = 'LeetCode' 
       </div>
 
       {/* Table */}
-      <div className="overflow-x-auto">
+      <div className="max-h-[440px] overflow-auto">
         <table className="w-full text-left border-collapse text-xs font-mono" aria-label="Contest Table">
-          <thead>
-            <tr className="bg-surface-subtle border-b border-border text-text-muted">
+          <thead className="sticky top-0 z-10 bg-surface-subtle">
+            <tr className="border-b border-border text-text-muted">
               <th scope="col" className="py-3 px-5 font-semibold">DATE</th>
               <th scope="col" className="py-3 px-5 font-semibold">CONTEST</th>
               <th scope="col" className="py-3 px-5 font-semibold">GLOBAL RANK</th>

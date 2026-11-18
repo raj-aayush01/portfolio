@@ -18,7 +18,7 @@ export default function PhotoSlot({ size = 'md', className = '' }) {
         <img
           src="/profile.jpg"
           alt="Aayush Raj"
-          className="w-full h-full object-cover"
+          className="absolute inset-0 w-full h-full object-cover"
           onError={() => setImageError(true)}
         />
       ) : null}

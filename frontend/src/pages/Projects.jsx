@@ -1,9 +1,9 @@
+
 import React from 'react';
 import {
   Github,
   ExternalLink,
   Cpu,
-  Layers,
   CheckCircle2,
 } from 'lucide-react';
 
@@ -15,11 +15,14 @@ export default function Projects({ projects = [] }) {
         <span className="text-xs font-mono font-semibold text-accent uppercase tracking-wider block mb-1">
           // PRODUCTION BUILDS & ARCHITECTURE
         </span>
+
         <h1 className="text-2xl sm:text-3xl font-bold font-sans text-text-main">
           Systems & Case Studies
         </h1>
+
         <p className="text-sm text-text-muted mt-1 font-sans max-w-4xl">
-          Real-world applications built with strict adherence to latency budgets, distributed state synchronization, and deterministic backend boundaries.
+          Real-world applications built with strict adherence to latency budgets,
+          distributed state synchronization, and deterministic backend boundaries.
         </p>
       </div>
 
@@ -38,13 +41,18 @@ export default function Projects({ projects = [] }) {
                   <span className="text-xs font-mono font-bold px-2 py-0.5 rounded bg-accent-subtle text-accent border border-accent-border">
                     CASE STUDY #0{project.order}
                   </span>
+
                   <span className="text-xs font-mono text-text-muted">
-                    {project.id === 'chatx' ? 'Primary Real-Time System' : 'Agentic AI Platform'}
+                    {project.id === 'chatx'
+                      ? 'Primary Real-Time System'
+                      : 'Agentic AI Platform'}
                   </span>
                 </div>
+
                 <h2 className="text-2xl sm:text-3xl font-bold font-sans text-text-main">
                   {project.title}
                 </h2>
+
                 <p className="text-sm sm:text-base font-medium text-text-muted mt-1">
                   {project.tagline}
                 </p>
@@ -76,15 +84,39 @@ export default function Projects({ projects = [] }) {
               </div>
             </div>
 
-            {/* Media / Visual Placeholder Slot */}
-            <div className="mt-6 mb-8 w-full h-48 sm:h-64 rounded-xl border border-dashed border-border bg-surface-subtle/50 flex flex-col items-center justify-center p-6 text-center font-mono">
-              <Layers className="w-8 h-8 text-accent mb-2" />
-              <span className="text-xs font-semibold text-text-main">
-                Visual Demo Slot ({project.title})
-              </span>
-              <span className="text-[11px] text-text-muted mt-1 max-w-sm">
-                Clean preview frame ready for application screenshot or walkthrough GIF.
-              </span>
+            {/* Project Images */}
+            <div className="mt-6 mb-8 grid grid-cols-1 md:grid-cols-2 gap-4">
+              {(project.images || []).map((image) => (
+                <div
+                  key={image.src}
+                  className="relative aspect-video rounded-xl overflow-hidden border border-border bg-surface-subtle"
+                >
+                  <img
+                    src={image.src}
+                    alt={image.alt}
+                    className="w-full h-full object-contain"
+                    loading="lazy"
+                    onError={(e) => {
+                      e.currentTarget.style.display = 'none';
+
+                      e.currentTarget.nextElementSibling.classList.remove(
+                        'hidden'
+                      );
+                    }}
+                  />
+
+                  {/* Image Fallback */}
+                  <div className="hidden absolute inset-0 flex flex-col items-center justify-center p-4 text-center">
+                    <span className="text-sm font-semibold text-text-main">
+                      Image unavailable
+                    </span>
+
+                    <span className="text-xs text-text-muted mt-1">
+                      {image.alt}
+                    </span>
+                  </div>
+                </div>
+              ))}
             </div>
 
             {/* Content Grid */}
@@ -95,6 +127,7 @@ export default function Projects({ projects = [] }) {
                   <h3 className="text-xs font-mono font-bold text-accent uppercase tracking-wider mb-2">
                     // SYSTEM OVERVIEW & OBJECTIVE
                   </h3>
+
                   <p className="text-sm font-sans text-text-main leading-relaxed">
                     {project.overview}
                   </p>
@@ -104,10 +137,15 @@ export default function Projects({ projects = [] }) {
                   <h3 className="text-xs font-mono font-bold text-accent uppercase tracking-wider mb-3">
                     // KEY CONTRIBUTIONS & DELIVERABLES
                   </h3>
+
                   <ul className="space-y-3 font-sans text-xs sm:text-sm text-text-muted leading-relaxed">
                     {(project.contributions || []).map((bullet, bIdx) => (
-                      <li key={bIdx} className="flex items-start gap-2.5">
+                      <li
+                        key={bIdx}
+                        className="flex items-start gap-2.5"
+                      >
                         <CheckCircle2 className="w-4 h-4 text-accent flex-shrink-0 mt-0.5" />
+
                         <span>{bullet}</span>
                       </li>
                     ))}
@@ -120,8 +158,10 @@ export default function Projects({ projects = [] }) {
                 <div className="p-5 rounded-xl border border-border bg-surface-subtle/40">
                   <h3 className="text-xs font-mono font-bold text-text-main uppercase tracking-wider mb-3 flex items-center gap-1.5">
                     <Cpu className="w-3.5 h-3.5 text-accent" />
+
                     <span>Technology Stack</span>
                   </h3>
+
                   <div className="flex flex-wrap gap-1.5">
                     {(project.stack || []).map((tech) => (
                       <span
@@ -138,6 +178,7 @@ export default function Projects({ projects = [] }) {
                   <h3 className="text-xs font-mono font-bold text-accent uppercase tracking-wider mb-2">
                     // KEY ENGINEERING DECISION
                   </h3>
+
                   <p className="text-xs sm:text-sm font-sans text-text-main leading-relaxed">
                     {project.keyEngineeringDecision}
                   </p>
